@@ -1,15 +1,22 @@
+body {
+    background-color: black;
+    font-family: 'Coiny', cursive;
+    color: white;
+}
 h1 {
     text-align: center;
+    color: #00ddff
 }
 
 #cart {
     display: flex;
     justify-content: center;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 10px solid #00ddff;
+    border-bottom: 10px solid #00ddff;
 }
 
 .column {
+    border-color: white;
     width: 18%;
     padding: 25px 0px;
 }
@@ -58,9 +65,16 @@ h1 {
 input {
     padding: 5px 10px;
     font-size: 14px;
+    border: solid 5px #00ddff;
+    border-radius: 20px;
+    background-color: black;
 }
 
 button {
     font-size: 14px;
     padding: 5px 10px;
+    border: solid 5px #00ddff;
+    border-radius: 20px;
+    background-color: black;
+}
 }
