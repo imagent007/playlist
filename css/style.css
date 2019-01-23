@@ -1,22 +1,23 @@
 body {
-    background-color: black;
     font-family: 'Coiny', cursive;
-    color: white;
+    color: #1bb3f4;
+    background-color: white;
 }
 h1 {
     text-align: center;
-    color: #00ddff
+    color: #1bb3f4;
+    font-size: 70px;
 }
 
 #cart {
     display: flex;
     justify-content: center;
-    border-top: 10px solid #00ddff;
-    border-bottom: 10px solid #00ddff;
+    border-top: 20px solid  #1bb3f4;
+    border-bottom: 20px solid #ff6602;
 }
 
 .column {
-    border-color: white;
+    border-color: black;
     width: 18%;
     padding: 25px 0px;
 }
@@ -57,24 +58,30 @@ h1 {
 }
 
 #form {
-    width: 75%;
-    margin: 0 auto 20px auto;
+    width: 100%;
+    margin: 0 auto 100px auto;
     font-size: 18px;
+    text-align: center;
 }
 
 input {
+    color: black;
     padding: 5px 10px;
     font-size: 14px;
-    border: solid 5px #00ddff;
+    border: solid 3px #ff6602;
     border-radius: 20px;
-    background-color: black;
+    background-color: #ff6602;
 }
 
 button {
+    color: grey;
     font-size: 14px;
     padding: 5px 10px;
-    border: solid 5px #00ddff;
+    border: solid 3px  #1bb3f4;
     border-radius: 20px;
-    background-color: black;
+    background-color:  #1bb3f4;
 }
+
+.footer {
+    text-align: center;
 }

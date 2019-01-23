@@ -15,10 +15,10 @@
 - [x] Update the songs array in your project to have at least 4 songs
 - [x] Create four new arrays to store images_urls, artists, song lengths, and links
 ### html / css
-- [ ] Customize your CSS or add another column
+- [x] Customize your CSS or add another column
 
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 2
 ### JS
