@@ -32,14 +32,17 @@ function displaySongInfo() {
 function emptySongInfo() {
     $("#songs").empty();
     // Use jQuery to empty all of the remaining divs
-
-
+    $("#images").empty();
+    $("#artists").empty();
+    $("#lengths").empty();
+    $("#links").empty();
 }
 
-
 function addSongInfo() {
-    // BELOW write the code to add new items to each of the arrays.
 
+    // BELOW write the code to add new items to each of the arrays.
+    var addSong = [];
+    songs.push(addSong);
 
 }
 
@@ -48,3 +51,7 @@ $("#add").click(function() {
     addSongInfo();
     displaySongInfo();
 });
+
+$("#delete").click(function() {
+    emptySongInfo();
+});  

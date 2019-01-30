@@ -73,8 +73,8 @@ input {
     background-color: #ff6602;
 }
 
-button {
-    color: grey;
+#add {
+    color: black;
     font-size: 14px;
     padding: 5px 10px;
     border: solid 3px  #1bb3f4;
@@ -82,6 +82,14 @@ button {
     background-color:  #1bb3f4;
 }
 
+#delete {
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: solid 3px  red;
+    border-radius: 20px;
+    background-color:  red;
+}
 .footer {
     text-align: center;
 }
