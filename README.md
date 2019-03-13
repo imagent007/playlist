@@ -19,6 +19,7 @@
 
 ### Wrap
 - [x] Push your changes!
+- 
 
 ## Day 2
 ### JS
@@ -36,7 +37,7 @@
 - [ ] Display the results to the screen when the user clicks a button
 
 ### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Extensions
 - [x] Update the HTML and CSS to reflect your own style.

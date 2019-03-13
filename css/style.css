@@ -1,8 +1,17 @@
 body {
     font-family: 'Coiny', cursive;
     color: #1bb3f4;
-    background-color: white;
+    animation: colorchange 500s;
+    -webkit-animation: colorchange 30s;
 }
+@keyframes colorchange
+    {
+      0%   {background: blue;}
+      25%  {background: orange;}
+      50%  {background: blue;}
+      75%  {background: orange;}
+      100% {background: blue;}
+    }
 h1 {
     text-align: center;
     color: #1bb3f4;
